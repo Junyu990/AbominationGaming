@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta ncame="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOMINATION GAMING | Home</title>
+    <link rel="stylesheet" href="../../style/cssWEB.css">
+    <link rel="stylesheet" href="../../font/Montserrat/Montserrat-VariableFont_wght.ttf">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="../../logo/logo_ag.png">
+      <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+      <div class="elfsight-app-04911e80-d498-460f-b847-de4ce2d052de"></div>
+</head>
+
+<body>
+    <div class="top">
+      
+    <div class="nav2">
+      
+        <nav>
+            <a href="../../Pages/Home/Home.html"><img src="../../logo/ag_banner.png" class="navbanner"></a>
+            <a style="text-decoration:none;" href="../../Pages/Home/Home.html" class="current">HOME</a>
+            <a style="text-decoration:none;" href="../../Pages/Products/Products.html" class="button">PRODUCTS</a>
+            <a style="text-decoration:none;" href="../../Pages/AboutUs/AboutUs.html" class="button">ABOUT US</a>
+            <a style="text-decoration:none;" href="../Support/Support.html"class="button">SUPPORT</a>
+            <a href="../../Pages/Home/Home.html"><img src="../../logo/abg_upd.png" class="companylogo"></a>
+        </nav>
+        
+    </div>
+    <div class="mobile">
+        <div class="mobile-container">
+        <!-- For mobile Top Navigation Menu -->
+            <div class="topnav">
+                <a href="../../Pages/Home/Home.html" class="active"><img src="../../logo/logo_ag.png" class="moblogo"></a>
+                <div id="myLinks">
+                    <a href="../../Pages/Home/Home.html">HOME</a>
+                    <a href="../../Pages/Products/Products.html">PRODUCTS</a>
+                    <a href="../../Pages/AboutUs/AboutUs.html">ABOUT US</a>
+                    <a href="../../Pages/Support/Support.html">SUPPORT</a>
+                </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars" style="text-align: center; vertical-align: middle;"></i>
+            </a>
+            </div>
+            <div style="padding-left:16px">
+            </div>
+        <!-- End of phone / tablet look -->
+        </div>
+        <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+        </script>
+    </div>
+    </div>
+    <!--SlideShow-->
+    <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <img src="../../Iconsandlogos/Gaming-PC-promo.jpg" style="width:100%">
+      </div>
+      
+      <div class="mySlides fade">
+        <img src="../../Iconsandlogos/STOREWIDE-PROMOTION_1920x870 _1_.jpg" style="width:100%">
+      </div>
+      
+      <div class="mySlides fade">
+        <img src="../../logo/banner1.png" style="width:100%">
+      </div>
+      
+      </div>
+      <br>
+      
+      <div style="text-align:center">
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+      </div>
+        <script>
+        let slideIndex = 0;
+          showSlides();
+
+        function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}    
+        for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 7000); // Change image every 7 seconds
+        }
+        </script>
+
+  <div>
+      <p class="para2" style="color: yellow; text-decoration:underline; text-decoration-color: black;">
+        Catergories
+      </p>  
+  </div>
+  <div class="catergories">
+    <table>
+      <tr>
+        <td>
+          <a style="text-decoration:none;" href="../Products/Desktop.html" class="button2">Desktops</a>
+        </td>
+        <td>
+          <a style="text-decoration:none; color: black;" href="../Products/Monitor.html" class="button2">Monitors</a>
+        </td>
+        <td>
+          <a style="text-decoration:none; color: black;" href="../Products/Keyboard.html" class="button2">Keyboard</a>
+        </td>
+        <td>
+          <a style="text-decoration:none; color: black;" href="../Products/Mouse.html" class="button2">Mouse</a>
+        </td>
+        <td>
+          <a style="text-decoration:none; color: black;" href="../Products/Audio.html" class="button2">Audio</a>
+        </td>
+        <td>
+          <a style="text-decoration:none; color: black;" href="../Products/Components.html" class="button2">Components</a>
+        </td>
+      </tr>
+        <td>
+          <a href="../Products/Desktop.html">
+            <img class="caticon" src="../../Icon/Photoshopped Icons/desktop.png">
+          </a>
+        </td>
+        <td>
+          <a href="../Products/Monitor.html">
+            <img class="caticon" src="../../Icon/Photoshopped Icons/monitor.png">
+          </a>
+        </td>
+        <td>
+          <a href="../Products/Keyboard.html">
+            <img class="caticon1" src="../../Icon/Photoshopped Icons/keyboard.png">
+          </a>
+        </td>
+        <td>
+          <a href="../Products/Mouse.html">
+            <img class="caticon" src="../../Icon/Photoshopped Icons/mouse.png">
+          </a>
+        </td>
+        <td>
+          <a href="../Products/Audio.html">
+            <img class="caticon" src="../../Icon/Photoshopped Icons/audio.png">
+          </a>
+        </td>
+        <td>
+          <a href="../Products/Components.html">
+            <img class="caticon1" src="../../Icon/Photoshopped Icons/component.png">
+          </a>
+        </td>
+    </table>
+  </div>
+  <div class="para3">
+    <p style="font-size:30px; font-weight:bold; color: yellow; text-decoration: underline; text-decoration-color: black;">The ABOMINATION Experience</p>
+    <p>
+      The CHEAPEST and LATEST gaming PC building company!
+      <br> Where we provide:
+    </p>
+    <table class="support">
+      <tr>
+        <td><img src="../../Icon/head.png" class="supportsize"></td>
+        <td><img src="../../Icon/hand.png" class="supportsize"></td>
+        <td><img src="../../Icon/24hr.png" class="supportsize"></td>
+      </tr>
+      <tr>
+        <td>Patient Customer Support</td>
+        <td>High Quality Products</td>
+        <td>Top Reviewed Custom PC Brand</td>
+      </tr>
+    </table>
+  </div>
+  <img class="bestvalue" src="../../Iconsandlogos/BEST-VALUE_1920x400.jpg">
+  <footer>
+    <div class="registerbox">
+      &nbsp;<br>
+        <div class="register">
+          <p>
+            Be part of the <span class="specialtext">ABOMI</span><span style="color:red;">#</span><span style="color:yellow;">NATION</span>
+          </p>
+          <p>
+            Subscribe now!
+            <br>
+            &nbsp;
+          </p>
+        </div>
+      <form action="">
+        <div class="input">
+          <input type="email" placeholder="Enter your E-mail:" class="email">
+          <input type="submit" value="SUBSCRIBE NOW!" id="submitbtn">
+        </div>
+      </form>
+      
+    </div>
+    <div class="socialbox">
+      &nbsp;
+      <div class="social">
+        <p>
+          <br>Follow us on our social media accounts to get news and promotions!<br>&nbsp;
+        </p>
+      
+        <div class="logodiv">
+          <a href="https://www.facebook.com/">
+            <img class="logo" src="../../Icon/fblogo.png"></img>
+          </a>
+          <a href="https://www.instagram.com/">
+            <img class="logo" src="../../Icon/iglogo.png"></img>
+          </a>
+          <a href="https://www.twitter.com/">
+            <img class="logo" src="../../Icon/twitterlogo.png"></img>
+          </a>
+        </div>
+      </div>
+      &nbsp;
+    </div>
+    <p class="footer" style="margin-left: auto;">
+      @2022 ABOMINATIONGAMING All Rights Reserved. &#169;2022 
+    </p>
+  </footer>
+</body>
+
+</html>
